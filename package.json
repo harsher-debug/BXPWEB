@@ -1,0 +1,16 @@
+{
+  "name": "bxpweb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da BXPWEB",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node scripts/check.mjs",
+    "test": "node --test scripts/contact.test.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "^21.0.1"
+  }
+}
