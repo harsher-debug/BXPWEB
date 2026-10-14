@@ -185,8 +185,8 @@ if (canvas) {
       render();
     }
     function loop(timestamp) {
-      if (timestamp - lastTime > 40) {
-        time += .025; render(); lastTime = timestamp;
+      if (timestamp - lastTime > 25) {
+        time += .055; render(); lastTime = timestamp;
       }
       frame = requestAnimationFrame(loop);
     }

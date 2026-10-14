@@ -33,3 +33,19 @@
 @media(max-width:800px){.expertise-band .container{display:grid;grid-template-columns:1fr 1fr;gap:24px}.expertise-item{justify-content:center}.whatsapp-widget{right:16px}}
 @media(max-width:520px){.expertise-band .container{gap:20px 12px;text-align:left}.expertise-item{gap:9px;justify-content:flex-start}.expertise-item svg{width:20px;height:20px}.expertise-band .expertise-item{font-size:11px}.whatsapp-toggle{min-height:52px;padding:11px 16px;font-size:12px}.whatsapp-toggle svg{width:25px;height:25px}.whatsapp-panel{width:320px;padding:20px}.menu-toggle{min-width:44px;width:44px}.header-cta{min-height:44px;font-size:10px;padding-inline:10px;gap:8px}.process-grid>li{padding-top:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.motion-ready .reveal{opacity:1;transform:none}.motion-toggle{display:none}}
+
+/* The compact view keeps the same icon set and the quiet glass header. */
+.expertise-item svg{width:24px;height:24px}
+@media(max-width:800px){
+  .header{background:rgba(14,15,18,.58);border-color:rgba(255,255,255,.11);box-shadow:0 4px 18px rgba(0,0,0,.12);backdrop-filter:blur(16px)}
+  .expertise-item svg{width:24px;height:24px}
+}
+@media(max-width:520px){
+  .header-cta{width:44px;min-width:44px;height:44px;padding:0;font-size:0;gap:0;border-color:rgba(255,255,255,.1);background:rgba(245,245,247,.9)}
+  .header-cta span{font-size:20px;line-height:1}
+  .header .brand{font-size:18px}
+  .expertise-item svg{width:24px;height:24px}
+  .whatsapp-toggle{width:56px;height:56px;min-height:56px;padding:12px;border-radius:50%;gap:0}
+  .whatsapp-toggle span{display:none}
+  .whatsapp-toggle svg{width:28px;height:28px}
+}
