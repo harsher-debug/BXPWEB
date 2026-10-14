@@ -25,6 +25,27 @@ document.addEventListener('click', event => {
 const desktop = matchMedia('(min-width: 801px)');
 desktop.addEventListener('change', event => { if (event.matches) closeMenu(); });
 
+const whatsappWidget = document.querySelector('.whatsapp-widget');
+const whatsappToggle = document.querySelector('.whatsapp-toggle');
+const whatsappPanel = document.querySelector('#whatsapp-panel');
+function setWhatsAppOpen(open, restoreFocus = false) {
+  if (!whatsappToggle || !whatsappPanel) return;
+  whatsappToggle.setAttribute('aria-expanded', String(open));
+  whatsappPanel.hidden = !open;
+  if (open) whatsappPanel.querySelector('a')?.focus();
+  else if (restoreFocus) whatsappToggle.focus();
+}
+whatsappToggle?.addEventListener('click', () => {
+  setWhatsAppOpen(whatsappPanel.hidden);
+});
+document.querySelector('.whatsapp-close')?.addEventListener('click', () => setWhatsAppOpen(false, true));
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && whatsappPanel && !whatsappPanel.hidden) setWhatsAppOpen(false, true);
+});
+document.addEventListener('click', event => {
+  if (whatsappWidget && !whatsappWidget.contains(event.target)) setWhatsAppOpen(false);
+});
+
 // Only the privacy choice is stored; project details stay in the form until
 // the visitor explicitly opens WhatsApp and chooses whether to send them.
 const privacyKey = 'bxpweb:privacy:v1';
@@ -38,6 +59,19 @@ function readPrivacyChoice() {
   return null;
 }
 if (cookieBanner) cookieBanner.hidden = Boolean(readPrivacyChoice());
+function positionWhatsApp() {
+  if (!whatsappWidget) return;
+  const offset = cookieBanner && !cookieBanner.hidden
+    ? Math.max(24, window.innerHeight - cookieBanner.getBoundingClientRect().top + 16)
+    : 24;
+  whatsappWidget.style.bottom = `${offset}px`;
+}
+if (cookieBanner && whatsappWidget) {
+  if ('ResizeObserver' in window) new ResizeObserver(positionWhatsApp).observe(cookieBanner);
+  new MutationObserver(positionWhatsApp).observe(cookieBanner, { attributes: true, attributeFilter: ['hidden'] });
+  window.addEventListener('resize', positionWhatsApp);
+  positionWhatsApp();
+}
 let cookieReturnFocus = null;
 document.querySelectorAll('[data-cookie-choice]').forEach(button => {
   button.addEventListener('click', () => {
