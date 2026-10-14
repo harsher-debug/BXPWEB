@@ -42,10 +42,18 @@
 }
 @media(max-width:520px){
   .header-cta{width:44px;min-width:44px;height:44px;padding:0;font-size:0;gap:0;border-color:rgba(255,255,255,.1);background:rgba(245,245,247,.9)}
-  .header-cta span{font-size:20px;line-height:1}
+  .header-cta .header-contact-label{display:none}
+  .header-cta svg{display:block;width:22px;height:22px;fill:none;stroke:var(--bg);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
   .header .brand{font-size:18px}
   .expertise-item svg{width:24px;height:24px}
   .whatsapp-toggle{width:56px;height:56px;min-height:56px;padding:12px;border-radius:50%;gap:0}
   .whatsapp-toggle span{display:none}
   .whatsapp-toggle svg{width:28px;height:28px}
+}
+@media (pointer:coarse) {
+  .header-cta{width:44px;min-width:44px;height:44px;padding:0;font-size:0;gap:0}
+  .header-cta .header-contact-label{display:none}
+  .header-cta svg{display:block;width:22px;height:22px;fill:none;stroke:var(--bg);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .whatsapp-toggle{width:56px;height:56px;min-height:56px;padding:12px;border-radius:50%;gap:0}
+  .whatsapp-toggle span{display:none}
 }
