@@ -1901,19 +1901,25 @@ select option {
   stroke-linejoin: round;
 }
 @media (max-width: 800px) {
+  .header:not(.legal-header) {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    padding-inline: 12px;
+    column-gap: 8px;
+  }
+  .header:not(.legal-header) > .brand {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    white-space: nowrap;
+  }
+  .header:not(.legal-header) > .menu-toggle {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
   .header .header-cta {
-    width: 44px;
-    min-width: 44px;
-    height: 44px;
-    padding: 10px;
-    margin-left: auto;
-    gap: 0;
-  }
-  .header .header-cta .header-contact-label {
     display: none;
-  }
-  .header .header-cta > svg {
-    display: block;
   }
   .whatsapp-widget .whatsapp-toggle {
     width: 56px;
