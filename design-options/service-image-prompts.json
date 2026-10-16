@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Illustrative service photos; not client portfolio or actual staff.",
+  "images": [
+    {
+      "name": "sites",
+      "file": "assets/services/sites.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: professional website development company BXPWEB service photo, landscape 3:2. Close three-quarter editorial photograph of a web designer's hands at a modern graphite laptop on a charcoal desk, the laptop screen prominently displaying a beautiful responsive business website for a fictional architecture practice with a large architectural photo, minimal navigation and elegant white layout. A smartphone beside the laptop shows the same website mobile layout. Soft natural window daylight, restrained warm grey and silver palette, premium but authentic Brazilian small creative studio. Focus on the website visible on screens, no code screens. No logos on devices, no watermark, no big added text or slogans. This is an illustrative service photograph, not identifiable real staff. Strong legible composition at card thumbnail size."
+    },
+    {
+      "name": "landing",
+      "file": "assets/services/landing.webp",
+      "prompt": "Use case: product-mockup. Asset: landing page creation service photograph for a restrained dark agency website. Landscape 3:2. Premium realistic close-up photo of an unbranded thin laptop on a neutral charcoal desk in a creative studio. Screen shows a single-page marketing website for a fictional interior design service: large beautiful modern living room photograph, warm cream background, simple dark headline area and one prominent forest-green contact call-to-action button, followed by three small benefits. A wireframe sketch on white paper and pen beside laptop reinforces page design. Camera square three-quarter to screen so landing page composition immediately clear. Natural afternoon light, crisp glass, matte metal, warm muted colors. No watermark, no device brand, no added overlay text, no pretend BXPWEB portfolio branding."
+    },
+    {
+      "name": "apps",
+      "file": "assets/services/apps.webp",
+      "prompt": "Use case: product-mockup. Asset: app and business systems development service photograph. Landscape 3:2. Realistic premium studio photograph of an unbranded smartphone standing upright in foreground next to an open graphite laptop. Smartphone displays a clean appointment booking app with a calendar and restrained teal controls, laptop displays matching business scheduling dashboard, white UI with sidebar and calendar, no analytics claims or huge invented statistics. Dark slate desk, soft neutral daylight and gentle blue accents, precise hardware proportions, realistic legible layout at small size. No famous brands, no human faces, no logos, no large overlay text, no watermark. The screens are illustrative concepts for a service, not existing clients."
+    },
+    {
+      "name": "suporte",
+      "file": "assets/services/suporte.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: corporate IT support service photograph for BXPWEB. Landscape 3:2. Authentic close-up professional editorial photograph of a technician's hands carefully connecting a blue Ethernet cable to a small business network switch inside a tidy compact wall rack, with an open laptop for diagnostics visible on the desk next to it. Person wearing a simple charcoal work shirt, face outside frame. Readable physical network equipment, organized cables, natural office lighting, warm neutral walls, graphite and soft blue palette. Human practical troubleshooting service, not a giant futuristic data center. No logos, no watermark, no added text, no circuits floating in space. Illustrative photo, not actual BXPWEB employees."
+    }
+  ]
+}

@@ -18,7 +18,7 @@ Abra `http://127.0.0.1:4173`. O servidor entrega apenas `dist/`. O site também 
 
 ## Conteúdo e comportamento
 
-- Página inicial com seis áreas de atuação, processo, fundadores, perguntas frequentes e contato.
+- Página inicial com quatro serviços ilustrados: sites, landing pages, aplicativos e suporte de TI; processo, apresentação, perguntas frequentes e contato.
 - Canvas de malha digital com pausa, suspensão fora da tela e respeito à preferência de movimento reduzido.
 - Menu mobile, navegação por teclado, foco visível e links sem dependência de JavaScript.
 - Formulário com campos obrigatórios e aceite de privacidade: prepara uma mensagem para WhatsApp. O visitante confirma o envio lá. Não há envio automático, API de formulário ou banco de dados.
@@ -53,3 +53,7 @@ Documentação oficial: [HTML estático no Pages](https://developers.cloudflare.
 `npm run check` verifica sintaxe JavaScript, arquivos referenciados, IDs, âncoras internas, campos rotulados e tamanho dos assets. `npm test` exercita o DOM com Happy DOM: aceite obrigatório, montagem e codificação da mensagem, validação, seleção de serviço, menu mobile e persistência/expiração da escolha de privacidade.
 
 Os testes de DOM não substituem uma inspeção visual em navegador. Nesta sessão, nenhum navegador de automação estava disponível, portanto screenshots e renderização real em desktop/mobile não foram verificados.
+
+### Imagens de servi?os
+
+Fotos ilustrativas geradas com image_gen, em WebP responsivo (600 e 1200 px), na pasta assets/services. N?o representam equipe ou projetos reais de clientes. Prompts: design-options/service-image-prompts.json. Prepara??o: node scripts/prepare-service-image.mjs <servi?o> <imagem-original>.
