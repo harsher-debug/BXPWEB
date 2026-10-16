@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "key": "realestate",
+      "prompt": "Create a premium landscape 3:2 photorealistic website presentation for a business web agency portfolio concept. Subject: close-up of an elegant large desktop display with a slim black bezel, on a minimal charcoal studio surface, no people, no hands, no keyboard clutter. The screen occupies 90 percent of composition and shows a truly sophisticated Portuguese luxury real estate website, fictional brand 'ATRIUM', dark charcoal UI, restrained ivory serif typography, fine warm bronze accents, huge editorial photograph of a stunning modern coastal luxury residence at dusk. Exact headline 'Endereços extraordinários.' with a clear small button 'Explorar imóveis'. Below hero a refined property search row and three small property listing thumbnails visible. High-end editorial design, generous spacing, believable browser UI, screen perspective almost straight on, impeccable real estate business art direction. Dark scene and website, precise light highlighting screen bezel. No people, shoes, agency design editor panels, neon, generic tech graphics, real brand logos or watermarks. All critical screen content central safe area for 1.6:1 crop."
+    },
+    {
+      "key": "drinks",
+      "prompt": "Create a premium landscape 3:2 photorealistic website campaign presentation for a business web agency portfolio concept. Subject: a large sleek tablet or thin desktop display nearly straight on, occupying 90 percent of composition on a black studio surface, no hands or people. Screen shows an exceptionally polished Portuguese beverage brand landing page, fictional brand 'BRAVA', dark black-cherry background, expressive refined cream typography, single large beautifully art-directed burgundy canned botanical sparkling drink with condensation, subtle red fruit and botanical ingredients inside website imagery. Exact headline 'Sabor que marca presença.' and clear refined CTA button 'Conheça os sabores'. A small section of a three-flavour product selection is visible below. Premium beverage campaign, strong distinct identity, restrained burgundy lighting and sophisticated packaging, no energy drink brand imitation, no alcohol claims. Scene outside screen minimal dark charcoal. Business-grade credible ecommerce campaign layout with generous negative space, not a generic laptop office photo. No people, shoes, real logos, watermark, floating UI. Main screen content within central safe crop for 1.6:1."
+    }
+  ]
+}

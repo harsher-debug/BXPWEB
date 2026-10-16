@@ -2284,6 +2284,17 @@ select option {
   overflow: hidden;
   scroll-margin-top: 115px;
 }
+.service-card-copy .service-concept {
+  margin: 20px 0;
+  padding-left: 16px;
+  border-left: 1px solid var(--accent);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.service-concept strong {
+  color: var(--text);
+  font-weight: 500;
+}
 .service-card-image {
   aspect-ratio: 1.6;
   overflow: hidden;
