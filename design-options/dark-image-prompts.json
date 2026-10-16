@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "key": "hero-dark",
+      "prompt": "Generate a landscape 3:2 photorealistic image for BXPWEB, a web development and IT support company's dark website. A premium dark creative technology studio, widescreen desktop monitor and smartphone showing the same polished dark corporate website, charcoal background, subtle blue light and natural window rim lighting, realistic photographed physical devices, no people, dramatic editorial composition. Premium commercial photography, credible physical textures and screen perspective. All scenery and screen backgrounds must be dark charcoal or navy, with enough detail and contrast, not crushed black. Main subject in central 80 percent for responsive cropping. No real brand logos, watermark, external captions, cloud icons, floating UI or neon cyberpunk. Illustrative fictional service example."
+    },
+    {
+      "key": "sites-dark",
+      "prompt": "Generate a landscape 3:2 photorealistic image for BXPWEB, a web development and IT support company's dark website. Over-the-shoulder editorial photograph of a web designer working on a large desktop monitor displaying a dark navy corporate website layout with image and service cards and a narrow design-tool sidebar. Hands on keyboard, charcoal studio, soft cool directional light. Focus on design work, no laptop. Premium commercial photography, credible physical textures and screen perspective. All scenery and screen backgrounds must be dark charcoal or navy, with enough detail and contrast, not crushed black. Main subject in central 80 percent for responsive cropping. No real brand logos, watermark, external captions, cloud icons, floating UI or neon cyberpunk. Illustrative fictional service example."
+    },
+    {
+      "key": "landing-dark",
+      "prompt": "Generate a landscape 3:2 photorealistic image for BXPWEB, a web development and IT support company's dark website. Premium studio product photograph of a landscape tablet on a black graphite surface displaying a dark campaign landing page for a fictional running shoe, large coral shoe photograph, simple Portuguese heading 'Seu próximo passo.' and a single coral button 'Quero conhecer'. A physical charcoal running shoe softly out of focus behind tablet. Subtle warm rim light, no office or plants. Premium commercial photography, credible physical textures and screen perspective. All scenery and screen backgrounds must be dark charcoal or navy, with enough detail and contrast, not crushed black. Main subject in central 80 percent for responsive cropping. No real brand logos, watermark, external captions, cloud icons, floating UI or neon cyberpunk. Illustrative fictional service example."
+    },
+    {
+      "key": "apps-dark",
+      "prompt": "Generate a landscape 3:2 photorealistic image for BXPWEB, a web development and IT support company's dark website. Close editorial photograph of a hand holding smartphone displaying a refined dark-mode appointment booking application, with a desktop calendar management screen softly blurred behind it. Charcoal and muted slate-blue interfaces, clear calendar cells and restrained mint accents. Dark professional office, realistic hand and devices, cool rim light. Premium commercial photography, credible physical textures and screen perspective. All scenery and screen backgrounds must be dark charcoal or navy, with enough detail and contrast, not crushed black. Main subject in central 80 percent for responsive cropping. No real brand logos, watermark, external captions, cloud icons, floating UI or neon cyberpunk. Illustrative fictional service example."
+    },
+    {
+      "key": "suporte-dark",
+      "prompt": "Generate a landscape 3:2 photorealistic image for BXPWEB, a web development and IT support company's dark website. Realistic editorial close-up photograph of technician hands connecting a network cable to an office network rack, dark charcoal equipment, subtle blue and green status lights, a diagnostic laptop screen with dark interface at the side. Professional IT support atmosphere, low-key lighting with details visible, not science fiction. Premium commercial photography, credible physical textures and screen perspective. All scenery and screen backgrounds must be dark charcoal or navy, with enough detail and contrast, not crushed black. Main subject in central 80 percent for responsive cropping. No real brand logos, watermark, external captions, cloud icons, floating UI or neon cyberpunk. Illustrative fictional service example."
+    }
+  ]
+}
