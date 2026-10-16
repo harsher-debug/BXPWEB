@@ -3,7 +3,7 @@
   <circle cx="930" cy="310" r="260" fill="none" stroke="#27313d" stroke-width="2"/>
   <circle cx="930" cy="310" r="190" fill="none" stroke="#1c252f" stroke-width="2" stroke-dasharray="8 12"/>
   <path d="M655 70v490M735 70v490M815 70v490M895 70v490M975 70v490M1055 70v490M635 150h460M635 230h460M635 310h460M635 390h460M635 470h460" stroke="#12191f" stroke-width="1"/>
-  <g transform="translate(86 64) scale(5)" color="#b9d1ec"><path fill="currentColor" fill-rule="evenodd" d="M5 3h6v8.3A11.3 11.3 0 0 1 18 9c6.1 0 11 4.5 11 10s-4.9 10-11 10H5V3Zm9 12 4 4-4 4 2 2 6-6-6-6-2 2Z"/></g>
+  <g transform="translate(86 64) scale(5)" color="#b9d1ec"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h5v8.4A9.8 9.8 0 0 1 18.5 10C24 10 28 14 28 19.5S24 29 18.5 29H7V4Z"/><path d="m16 15.5 4 4-4 4"/></g></g>
   <text x="86" y="286" fill="#f5f5f7" font-family="Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-4">BXP<tspan fill="#aebdce" font-weight="400">WEB</tspan></text>
   <text x="92" y="370" fill="#f5f5f7" font-family="Georgia, serif" font-size="64" font-style="italic">Sua próxima ideia,</text>
   <text x="92" y="442" fill="#f5f5f7" font-family="Georgia, serif" font-size="64" font-style="italic">em versão real.</text>
