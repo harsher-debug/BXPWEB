@@ -12,7 +12,7 @@ for (const entry of await readdir(output)) await rm(resolve(output, entry), { re
 const files = ['index.html', 'privacidade.html', '404.html', 'styles.css', 'app.js', 'assets', 'robots.txt', 'sitemap.xml', '_headers'];
 for (const file of files) await cp(resolve(root, file), resolve(output, file), { recursive: true });
 // Content-addressed URLs prevent a new page from using old CSS/JS in mobile caches.
-for (const asset of ['styles.css', 'app.js', 'assets/favicon.svg']) {
+for (const asset of ['styles.css', 'app.js', 'assets/favicon.svg', 'assets/favicon-32.png', 'assets/apple-touch-icon.png']) {
   const contents = await readFile(resolve(root, asset));
   const hash = createHash('sha256').update(contents).digest('hex').slice(0, 12);
   const versioned = asset.replace('.', `.${hash}.`);

@@ -5,12 +5,14 @@
   "description": "Site institucional da BXPWEB",
   "type": "module",
   "scripts": {
+    "brand": "node scripts/render-brand.mjs",
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "check": "node --check app.js && node scripts/check.mjs",
     "test": "node --test scripts/contact.test.mjs"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "happy-dom": "^21.0.1"
   }
 }
